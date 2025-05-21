@@ -17,14 +17,13 @@ docker-compose ps
 
 ```bash
 start http://localhost:15672
+```
 Username: guest
 Password: guest
-```
 
 Check under:
 
 Queues tab → Verify order_processing queue exists
-
 Exchanges tab → Verify orders exchange exists
 
 2. Monitor Publisher Logs
